@@ -73,7 +73,7 @@ class MainSection extends Component {
 
 MainSection.propTypes = {
   todos: PropTypes.array.isRequired,
-  actions: propTypes.object.isRequired
+  actions: PropTypes.object.isRequired
 }
 
 export default MainSection;
