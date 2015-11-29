@@ -4,10 +4,9 @@ import TodoTextInput from './TodoTextInput';
 
 class TodoItem extends Component {
   constructor(props, context) {
-    super(props, context) {
-      this.state = {
-        editing: false
-      }
+    super(props, context);
+    this.state = {
+      editing: false
     }
   }
 
